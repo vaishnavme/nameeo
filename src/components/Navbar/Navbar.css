@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem auto;
+}
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+    color: #7d30fa;
+}
+.nav-link .nav-item {
+    display: inline;
+    list-style: none;
+    margin: 0.5rem;
+}
