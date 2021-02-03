@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-description, .hero-illustration {
+    width: 50%;
+}
+.hero-illustration {
+    display: flex;
+    justify-content: flex-end;
+}
+.hero-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
