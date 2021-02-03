@@ -1,0 +1,21 @@
+.main {
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+}
+input {
+    width: 100%;
+    max-width: 500px;
+    height: 3rem;
+    font-size: 18px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    color: #102754;
+    font-weight: 500;
+    border: 2px solid #D4E8FF;
+    background-color: #D4E8FF;
+}
+input::placeholder {
+    color: #8da7da;
+}
