@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import './Result.css';
+import NameCard from '../NameCard/NameCard';
 
-const Result = () => {
+const Result = ({ suggestedNames }) => {
+
+    const suggestedListNames = suggestedNames.map(name => {
+        return <NameCard key={name} name={name}/>
+    })
+
     return (
-        <h1>Nav</h1>
+       <div className="card-container">
+           {suggestedListNames}
+       </div>
     )
 }
 
