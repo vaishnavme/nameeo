@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-
-import Navbar from './components/Navbar/Navbar';
-import Header from './components/Header/Header';
-import Result from './components/Result/Result';
-
 import './App.css';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+import SearchBox from './components/Searchbox/SearchBox';
+import Result from './components/Result/Result';
 
 class App extends Component {
   render() {
@@ -12,6 +11,7 @@ class App extends Component {
       <div className="container">
         <Navbar/>
         <Header/>
+        <SearchBox/>
         <Result/>
       </div>
     );
