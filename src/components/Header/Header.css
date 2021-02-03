@@ -23,10 +23,7 @@ ul li {
     padding: 0.5rem 0;
     font-weight: 300;
 }
-.hero-illustration {
-    display: flex;
-    justify-content: flex-end;
-}
+
 .hero-img {
     width: 100%;
     max-width: 400px;
@@ -35,7 +32,7 @@ ul li {
 
 @media screen and (max-width:802px) {
     .header {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .hero-description, .hero-illustration {
         width: 100%;
