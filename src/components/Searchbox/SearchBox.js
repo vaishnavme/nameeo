@@ -3,7 +3,9 @@ import './SearchBox.css';
 
 const SearchBox = () => {
     return (
-        <h2>SearchBox</h2>
+        <div className="main">
+            <input type="text" placeholder="Search Keywords"></input>
+        </div>
     )
 }
 
