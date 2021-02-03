@@ -6,7 +6,7 @@ const Header = () => {
         <div className="header">
             
             <div className="hero-illustration">
-                <img src={process.env.PUBLIC_URL + '/images/Hero.svg'} className="hero-img"></img>
+                <img src={process.env.PUBLIC_URL + '/images/Hero.svg'} alt="hero" className="hero-img"></img>
             </div>
             <div className="hero-description">
                 <h1>Welcome to NameeO</h1>
