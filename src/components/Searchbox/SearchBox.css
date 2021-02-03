@@ -9,12 +9,16 @@ input {
     height: 3rem;
     font-size: 18px;
     padding: 0.5rem;
-    border-radius: 0.5rem;
+    border-radius: 5px;
     outline: none;
     color: #102754;
     font-weight: 500;
-    border: 2px solid #D4E8FF;
+    border: 2px solid #c9e2ff;
     background-color: #D4E8FF;
+    transition: all ease-in-out 300ms;
+}
+input:hover, input:focus {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 input::placeholder {
     color: #8da7da;
