@@ -6,6 +6,23 @@
 .hero-description, .hero-illustration {
     width: 50%;
 }
+.hero-description {
+    align-self: flex-start;
+    margin-top: 2rem;
+}
+.hero-description h1 {
+    font-size: 38px;
+    font-weight: 600;
+}
+.hero-description .text {
+    margin: 1rem 0;
+    font-size: 18px;
+}
+ul li {
+    list-style: none;
+    padding: 0.5rem 0;
+    font-weight: 300;
+}
 .hero-illustration {
     display: flex;
     justify-content: flex-end;
