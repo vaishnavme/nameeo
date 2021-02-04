@@ -10,6 +10,7 @@ const NameCard = ({name}) => {
             target="_blank"
             rel="noreferrer"
         >
+            {/* Suggested names card */}
             <div
                 className="card">
                 <h2>{name}</h2>

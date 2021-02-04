@@ -12,15 +12,14 @@ class App extends Component {
   constructor() {
     super() ;
       this.state = {
-        suggestedNames : []
+        suggestedNames : [] /* storing suggested names */
       }
   }
-
+  /* Getting data from Searchbox input field */
   handleChange = (inputText) => {
     this.setState({
       suggestedNames: inputText ? nameGenerator(inputText) : []
     })
-    
   }
   
   render() {
