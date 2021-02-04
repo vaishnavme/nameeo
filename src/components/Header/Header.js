@@ -13,10 +13,10 @@ const Header = () => {
                 <p className="text">Get creative name ideas for your new Project or Startup.</p>
                 <ul className="features">
                     <li>
-                        <p><b>🎴 Availability: </b> Check if name is avaiable to Register on new Domain.</p>
+                        <p><b>🎴 Availability: </b> Check if name is available to Register on new Domain.</p>
                     </li>
                     <li>
-                        <p><b>🌿 Uniqueness: </b> Get list of all names accourding to your Keyword.</p>
+                        <p><b>🌿 Uniqueness: </b> Get list of all names according to your Keyword.</p>
                     </li>
                 </ul>
             </div>
