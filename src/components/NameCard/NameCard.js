@@ -13,6 +13,7 @@ const NameCard = ({name}) => {
             <div
                 className="card">
                 <h2>{name}</h2>
+                <span class="tooltiptext">Check for Domain</span>
             </div>
         </a>
     )

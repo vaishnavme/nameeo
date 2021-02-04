@@ -5,12 +5,29 @@
     border-radius: 4px;
     margin: 1rem;
     padding: 8px 15px;
-    background-color: #fafcff;
+    background-color: #e0ecff;
     transition: all ease-in-out 300ms;
+    position: relative;
 }
 .card:hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .card h2 {
     font-weight: 400;
+}
+.card .tooltiptext {
+    visibility: hidden;
+    font-size: 12px;
+    width: 120px;
+    background-color: #f8f8f8;
+    color: #102754;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}  
+.card:hover .tooltiptext {
+    visibility: visible;
 }
