@@ -9,10 +9,10 @@ const Navbar = () => {
             </div>
             <ul className="nav-link">
                 <li className="nav-item">
-                    <a href="www.github.com/vaishnavme">Github</a>
+                    <a target="_blank" rel="noreferrer" href="https://www.github.com/vaishnavme">Github</a>
                 </li>
                 <li className="nav-item">
-                    <a href="www.github.com/vaishnavme">Developer</a>
+                    <a target="_blank" rel="noreferrer" href="https://www.github.com/vaishnavme">Developer</a>
                 </li>
             </ul>
         </nav>
