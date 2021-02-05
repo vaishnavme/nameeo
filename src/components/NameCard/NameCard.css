@@ -31,3 +31,11 @@
 .card:hover .tooltiptext {
     visibility: visible;
 }
+@media screen and (max-width: 439px) {
+    .card {
+        width: 100%;
+        min-width: 100px;
+        margin: 1rem;
+        padding: 8px 15px;
+    }
+}
