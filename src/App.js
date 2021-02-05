@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
@@ -7,31 +7,22 @@ import Result from './components/Result/Result';
 
 const nameGenerator = require('@rstacruz/startup-name-generator');
 
-class App extends Component {
+function App() {
 
-  constructor() {
-    super() ;
-      this.state = {
-        suggestedNames : [] /* storing suggested names */
-      }
+  const [suggestedNames, setSuggestedNames] = useState([]);
+
+  const handleChange = (inputText) => {
+    setSuggestedNames(inputText ? nameGenerator(inputText) : [])
   }
-  /* Getting data from Searchbox input field */
-  handleChange = (inputText) => {
-    this.setState({
-      suggestedNames: inputText ? nameGenerator(inputText) : []
-    })
-  }
-  
-  render() {
-    return (
-      <div className="container">
-        <Navbar/>
-        <Header/>
-        <SearchBox onInputChange = {this.handleChange}/>
-        <Result suggestedNames = {this.state.suggestedNames}/>
-      </div>
-    );
-  }
+
+  return (
+    <div className="container">
+      <Navbar/>
+      <Header/>
+      <SearchBox onInputChange = {handleChange}/>
+      <Result suggestedNames = {suggestedNames}/>
+    </div>
+  );
 }
 
 export default App;
